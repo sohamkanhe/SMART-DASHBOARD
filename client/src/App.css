@@ -1,0 +1,10 @@
+/* src/App.css */
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1; /* This makes it take up the remaining space */
+  height: 100vh;
+  overflow-y: auto;
+}

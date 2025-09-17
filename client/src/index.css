@@ -1,0 +1,21 @@
+/* src/index.css */
+
+:root {
+  --background-dark: #121212;
+  --background-light: #1E1E1E;
+  --accent-color: #665DFF;
+  --text-primary: #E0E0E0;
+  --text-secondary: #B3B3B3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: var(--background-dark);
+  color: var(--text-primary);
+}

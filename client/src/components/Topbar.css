@@ -1,0 +1,48 @@
+/* src/components/Topbar.css */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--background-dark);
+  }
+  
+  .search-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: var(--background-light);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .search-wrapper input {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--text-primary);
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .topbar-icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+  }
+  
+  .icon-button:hover {
+    background-color: var(--background-light);
+  }

@@ -1,0 +1,142 @@
+/* src/pages/Classification.css */
+.classification-container {
+    padding: 1.5rem 2rem;
+  }
+  
+  .classification-header h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--text-primary);
+  }
+  
+  .classification-header p {
+    margin-bottom: 2rem;
+    color: var(--text-secondary);
+    font-size: 1rem;
+  }
+  
+  /* Re-using the metric-card style from the Forecast page */
+  .metric-card {
+    background-color: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: fit-content;
+    min-width: 250px;
+    border-left: 4px solid #19ffb5; /* Using a different color for variety */
+    margin-bottom: 2.5rem;
+  }
+  
+  .metric-card h4 {
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .metric-card p {
+    color: var(--text-primary);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .metric-card span {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+  }
+  
+  .classification-table-container {
+    background-color: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .classification-table-container h3 {
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  
+  .classification-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .classification-table th,
+  .classification-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  
+  .classification-table th {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  
+  .performance-badge {
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .badge-best {
+    background-color: rgba(25, 255, 181, 0.1);
+    color: #19ffb5;
+  }
+  
+  .badge-average {
+    background-color: rgba(255, 187, 0, 0.1);
+    color: #ffbb00;
+  }
+  
+  .badge-slow {
+    background-color: rgba(255, 107, 107, 0.1);
+    color: #ff6b6b;
+  }
+  
+  .error-message {
+      color: #ff6b6b;
+      background-color: rgba(255, 107, 107, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+  }
+
+  .classification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  
+  .model-selector-wrapper {
+    text-align: right;
+  }
+  
+  .model-selector-wrapper p {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-secondary);
+  }
+  
+  .model-select {
+    background-color: var(--background-light);
+    color: var(--text-primary);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .metrics-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .metric-card p.model-name {
+    font-size: 1.5rem; /* Make the model name slightly smaller than the number */
+  }

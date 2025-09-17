@@ -1,0 +1,57 @@
+.entry-form-container {
+    background-color: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  .entry-form-container h3 {
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .entry-form {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+  .entry-form input,
+  .entry-form select,
+  .entry-form button {
+    background-color: var(--background-dark);
+    border: 1px solid #333;
+    color: var(--text-primary);
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  .entry-form button {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .autocomplete-wrapper {
+    position: relative;
+  }
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #2a2a2a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    list-style-type: none;
+    margin-top: 0.5rem;
+    padding: 0;
+    z-index: 10;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  .suggestions-list li {
+    padding: 0.8rem;
+    cursor: pointer;
+  }
+  .suggestions-list li:hover {
+    background-color: var(--accent-color);
+  }
